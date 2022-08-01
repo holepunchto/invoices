@@ -83,7 +83,6 @@ module.exports = ({request}) => {
 
   const details = requestDetails({
     network,
-    destination: asHex(recover(hash, signature, recovery, true)),
     details: fields.map(n => fieldAsDetails({
       network,
       code: n.code,
