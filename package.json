@@ -25,7 +25,7 @@
     "lightning-network",
     "payment-request"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "main": "index.js",
   "name": "invoices",
   "repository": {
